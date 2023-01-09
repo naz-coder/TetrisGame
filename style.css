@@ -1,0 +1,35 @@
+.tetris{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game_board{
+    border: 2px solid #000000;
+}
+
+.centre-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.play_button{
+    padding: 15px 30px;
+    background-color: #4caf50;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pause_button{
+    display: none;
+    font-size: 16px;
+    background-color: #4caf50;
+    padding: 15px 30px;
+    cursor: pointer;
+}
